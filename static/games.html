@@ -49,12 +49,18 @@
 	<div class="container body-button-panel">
 		<span class="new-group-btn games-obj" data-bind="click: newLevel">New</span>
 	</div>
-	<div class="container list-panel">		
-		<ul data-bind="foreach: itemList">
-			<li data-bind="click: selectMe, style: { background: isSelected() ? 'lightblue' : 'white' }">					
+	<div class="container list-panel">
+		<ul>
+			<li>
+				<span>Recursion</span>
+			</li>
+		</ul>		
+		<!-- <ul data-bind="foreach: itemList">
+			<li data-bind="click: selectMe, style: { background: isSelected() ? 'lightblue' : 'white' }">			
+				<span>Recursion</span>		
 				<span data-bind="text: title"></span>
 			</li>				
-		</ul>
+		</ul> -->
 	</div>		
 	<!-- /ko -->
 	

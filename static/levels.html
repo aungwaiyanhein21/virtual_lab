@@ -49,13 +49,24 @@
 	<div class="container body-button-panel">
 		<span class="new-group-btn levels-obj" data-bind="click: newLevel">New</span>
 	</div>
-	<div class="container list-panel">		
-		<ul data-bind="foreach: itemList">
+	<div class="container list-panel">	
+		<ul>
+			<li>
+				<span class="level-icons"><img src="user_images/function.jpg"></span>				
+				<span>Function</span>
+			</li>
+			<li>
+				<span class="level-icons"><img src="user_images/variable.jpg"></span>				
+				<span>Variable</span>
+			</li>
+		</ul>	
+
+		<!-- <ul data-bind="foreach: itemList">
 			<li data-bind="click: selectMe, style: { background: isSelected() ? 'lightblue' : 'white' }">	
 				<span class="level-icons"><img data-bind="attr:{src: 'user_images/' + image}"></span>				
 				<span data-bind="text: title"></span>
 			</li>				
-		</ul>
+		</ul> -->
 	</div>		
 	<!-- /ko -->
 	
